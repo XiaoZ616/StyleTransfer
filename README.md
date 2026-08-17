@@ -58,6 +58,21 @@ python main.py
 
 第一次运行时，Torchvision 会自动下载预训练的 VGG19 权重。程序运行完成后，最终结果会保存到 `output1/output.jpg`。
 
+## 效果图
+
+原内容图：
+
+<img width="458" height="290" alt="image" src="https://github.com/user-attachments/assets/786a1784-b8d2-4d05-8ef4-9e295cac7b24" />
+
+原风格图：
+
+<img width="454" height="328" alt="image" src="https://github.com/user-attachments/assets/9e87ef69-63ff-4549-a1e6-3d82281b9e09" />
+
+最终效果图：
+
+<img width="864" height="547" alt="image" src="https://github.com/user-attachments/assets/ee53b433-4fed-43cd-af7f-4c94950ab5ce" />
+
+
 ## 主要参数
 
 - `IMG_SIZE`：处理图像的尺寸。数值越大，结果越清晰，但运行更慢、占用内存更多。
